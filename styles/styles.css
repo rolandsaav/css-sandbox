@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,a{
+  margin: 0;
+  text-decoration: none;
+}
+
+
+.form {
+  margin: auto;
+  width: 40rem;
+  padding: 4rem;
+  outline: solid black 1px;
+}
+
+.form-header {
+  margin-bottom: 1.5rem;
+}
+
+.form-title {
+  font-size: 3rem;
+}
+
+.form-subtitle {
+  font-size: 1.5rem;
+  color: rgb(163, 163, 163);
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.field-container {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.field-name {
+  padding-bottom: .5rem;
+}
+
+.field-input {
+  height: 2.5rem;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  caret-color: black;
+} 
+
+.field-button {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  width: 100%;
+  font-size: 1.5rem;
+  border: 0;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  cursor: pointer;
+}
+
+.field-google {
+  padding: 4px;
+  background-color: #4285F4;
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.field-google-img-container{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  aspect-ratio: 1;
+}
+
+.field-google-img {
+  height: 2rem;
+}
+
+.field-google-text {
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
